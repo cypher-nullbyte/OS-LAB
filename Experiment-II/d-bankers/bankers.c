@@ -58,6 +58,7 @@ void isSafe(int N,int M)
 
 int main()
 {
+        printf("Welcome to this OS-Lab Program by CHIRANJEET under Dr. DEEPA.K\n\n");
         int i,j,N,M;
         printf("Enter the number of process and resources :");
         scanf("%d %d",&N,&M);
