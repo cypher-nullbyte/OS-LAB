@@ -22,7 +22,7 @@ void *consumer(void *);
 
 int main()
 {
-    printf("Welcome to this Producer-Consumer Soltion by CHIRANJEET under Dr. Deepa.K. using [Semaphores & Mutex]\n\n");
+    printf("Welcome to this Producer-Consumer Solution by CHIRANJEET under Dr. Deepa.K. using [Semaphores & Mutex]\n\n");
     pthread_t pro[5],con[5];
     pthread_mutex_init(&mutex,NULL);
     sem_init(&empty,0,BufferSize);
